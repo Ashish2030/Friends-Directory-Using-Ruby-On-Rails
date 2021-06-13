@@ -1,0 +1,22 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <%=link_to 'Friends List',root_path, class:'navbar-brand nav-link text-light' %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <%=link_to 'About' , home_about_path, class:"nav-link text-light" %>
+      </li>
+       <li class="nav-item">
+          <%=link_to 'Show Friends' ,  friend_tables_path, class:"nav-link text-light" %>
+      </li>
+       <li class="nav-item">
+          <%=link_to 'Add Friends' , new_friend_table_path, class:"nav-link text-light"%>
+      </li>
+
+    </ul>
+  </div>
+</nav>
