@@ -1,2 +1,0 @@
-class FriendTable < ApplicationRecord
-end
